@@ -85,3 +85,143 @@ footer {
 .copyright {
   text-transform: uppercase;
 }
+
+
+body {
+    color: #fff;
+}
+
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Barre de navigation */
+
+nav {
+    width: 100%;
+    padding: 15px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 50%;
+    gap: 3%;
+    margin-left: 40px;
+}
+
+.navbar .navItems .active {
+    color: #57BF6D;
+}
+
+.navbar .navItems img {
+    width: 60%;
+}
+
+.navbar .logo a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 50%;
+    min-width: 50px;
+}
+
+/* Barre des réseaux sociaux */
+
+.socialNetworks {
+    display: flex;
+    flex-direction: column;
+    position : absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+/* Menu Burger */
+
+.menuBurger {
+    display: none;
+}
+
+.menuBurger .hiddenMenu {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    height: 0;
+    width: 40%;
+    background: rgba(1, 33, 48, 0.5);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.menuBurger .hiddenMenu.open {
+    height: auto;
+    min-width: 200px
+}
+
+.menuBurger .hiddenNavItems {
+    padding: 20px 10%;
+}
+
+.menuBurger .hiddenSocialNetworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #fff;
+    padding: 20px 10%;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Barre de navigation */
+
+    nav {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .navbar .navItems {
+        display: none;
+    }
+
+    /* Menu Burger */
+
+    .menuBurger {
+        display: block;
+    }
+
+    .menuBurger i {
+        font-size: 2rem;
+    }
+
+    /* Barre des réseaux sociaux */
+
+    .socialNetworks {
+        display: none;
+    }
+    
+}
