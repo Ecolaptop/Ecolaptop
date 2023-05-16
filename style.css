@@ -9,7 +9,7 @@ ul {
 }
 
 body {
-  background-image: radial-gradient(#57bf6d 0%, #12130f 100%);
+  background-image: radial-gradient(#57bf6d 0%, #12130f 80%);
 }
 
 main {
@@ -27,13 +27,16 @@ main > p {
 .main-cadre {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #12130f92;
   width: 80%;
   min-width: 700px;
+  border-radius: 10px;
 }
 
 .main-left {
+  order: 1;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
@@ -58,6 +61,7 @@ main > p {
 }
 
 .main-right {
+  order: 2;
   width: 50%;
 }
 
