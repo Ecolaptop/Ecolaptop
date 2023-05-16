@@ -6,10 +6,30 @@
 
 ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 body {
-  background-color: radial-gradient(circle at center, #57bf6d 0, #12130f 100%);
+  background-image: radial-gradient(#57bf6d 0%, #12130f 100%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.main-cadre {
+  display: flex;
+  flex-direction: row;
+  background-color: #12130f92;
+  width: 80%;
+  min-width: 700px;
+}
+
+.prix {
+  color: #227c9d;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: right;
 }
