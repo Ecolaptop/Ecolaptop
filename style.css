@@ -61,4 +61,23 @@ main {
 .main-right img {
   width: 100%;
   max-width: 540px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  color: #eae6e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 60%;
+}
+
+.urlSite {
+  font-size: 180%;
+}
+
+.copyright {
+  text-transform: uppercase;
 }
