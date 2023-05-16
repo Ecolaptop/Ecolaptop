@@ -22,14 +22,43 @@ main {
 .main-cadre {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: #12130f92;
   width: 80%;
   min-width: 700px;
+}
+
+.main-left {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-left h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0.5rem 1rem;
+}
+
+.main-left h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0.5rem 1rem;
 }
 
 .prix {
   color: #227c9d;
   font-weight: bold;
   font-size: 2rem;
-  text-align: right;
+  text-align: center;
+}
+
+.main-right {
+  width: 50%;
+}
+
+.main-right img {
+  width: 100%;
+  max-width: 540px;
 }
