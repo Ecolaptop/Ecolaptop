@@ -11,8 +11,10 @@ ul {
 body {
   background-image: radial-gradient(#57bf6d 0%, #12130f 80%);
   background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
 }
 
 main {
@@ -148,11 +150,26 @@ nav a {
 .socialNetworks {
     display: flex;
     flex-direction: column;
-    position : fixed;
-    top: 0;
-    left: 0;
-    padding: 10px;
+    position : absolute;
+    top: 20;
+    left: 10;
 }
+
+/* .socialNetworks a {
+    background-color: #fff;
+    color: #000;
+    margin: 20% 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.socialNetworks i {
+    font-size: 1.5rem;
+} */
 
 /* Menu Burger */
 
