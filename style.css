@@ -14,7 +14,7 @@ body {
   background-size: cover;
   color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 main {
@@ -93,6 +93,7 @@ footer {
 
 header {
     max-width: 1200px;
+	width: 100%;
     margin: 0 auto;
 }
 
@@ -123,7 +124,6 @@ nav a {
     align-items: center;
     flex-basis: 50%;
     gap: 3%;
-    margin-left: 40px;
 }
 
 .navbar .navItems .active {
@@ -148,14 +148,13 @@ nav a {
 /* Barre des réseaux sociaux */
 
 .socialNetworks {
-    display: flex;
-    flex-direction: column;
     position : absolute;
-    top: 20;
-    left: 10;
+    top: 10px;
+    left: 20px;
 }
 
-/* .socialNetworks a {
+.socialNetworks a {
+    display: block;
     background-color: #fff;
     color: #000;
     margin: 20% 0;
@@ -169,7 +168,7 @@ nav a {
 
 .socialNetworks i {
     font-size: 1.5rem;
-} */
+}
 
 /* Menu Burger */
 
@@ -213,7 +212,6 @@ nav a {
 .headerTitle {
     max-width: 1200px;
     margin: 0 auto 2%;
-    margin-left: 40px;
 }
 
 .headerTitle h1 {
