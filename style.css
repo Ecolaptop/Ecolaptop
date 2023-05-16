@@ -10,6 +10,9 @@ ul {
 
 body {
   background-image: radial-gradient(#57bf6d 0%, #12130f 80%);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
@@ -86,11 +89,6 @@ footer {
   text-transform: uppercase;
 }
 
-
-body {
-    color: #fff;
-}
-
 header {
     max-width: 1200px;
     margin: 0 auto;
@@ -150,7 +148,7 @@ nav a {
 .socialNetworks {
     display: flex;
     flex-direction: column;
-    position : absolute;
+    position : fixed;
     top: 0;
     left: 0;
     padding: 10px;
@@ -191,6 +189,24 @@ nav a {
     align-items: center;
     border-right: 1px solid #fff;
     padding: 20px 10%;
+}
+
+/* Header Titre */
+
+.headerTitle {
+    max-width: 1200px;
+    margin: 0 auto 2%;
+    margin-left: 40px;
+}
+
+.headerTitle h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.headerTitle h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {

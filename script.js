@@ -7,4 +7,4 @@ burgerBtn.onclick = function () {
     const isOpen = hiddenMenu.classList.contains("open");
 
     toggleBtnIcon.classList = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
-};
+}
