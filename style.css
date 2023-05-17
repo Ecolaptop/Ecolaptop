@@ -233,8 +233,9 @@ nav a {
 /* Header Titre */
 
 .headerTitle {
-    /* max-width: 1200px; */
-    margin: 0 auto 2%;
+    /* max-width: 1200px;
+    /* margin: 0 auto 2%; */
+    padding: 0 15px;
 }
 
 .headerTitle h1 {
@@ -248,6 +249,10 @@ nav a {
 }
 
 @media screen and (max-width: 768px) {
+
+  .navPart {
+    flex-basis: 100%;
+  }
   /* Barre de navigation */
 
   nav {
