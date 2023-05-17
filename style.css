@@ -152,7 +152,7 @@ nav a {
     gap: 3%;
 }
 
-.navbar .navItems .active,
+.active,
 .navbar .navItems a:hover {
     color: #57BF6D;
 }
