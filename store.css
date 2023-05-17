@@ -22,6 +22,7 @@
 
 .store-cadre h2 {
   padding: 1rem 0.5rem;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
