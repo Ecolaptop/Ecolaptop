@@ -2,6 +2,11 @@
   width: 250px;
 }
 
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
 .card-container {
   display: flex;
   flex-direction: row;
