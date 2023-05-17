@@ -158,7 +158,8 @@ nav a {
 }
 
 .navbar .navItems .active,
-.navbar .navItems a:hover {
+.navbar .navItems a:hover,
+.menuBurger .active {
   color: #57bf6d;
 }
 
