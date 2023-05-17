@@ -1,101 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 body {
-  background-image: radial-gradient(#57bf6d 0%, #12130f 80%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  font-family: 'Outfit', sans-serif;
-  min-height: 100vh;
+    background-image: radial-gradient(#57bf6d 0%, #12130f 80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
 
-main > p {
-  margin: 1rem 0;
-  font-size: 1.5rem;
-  text-align: center;
+main>p {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .main-cadre {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: #12130f92;
-  width: 90%;
-  border-radius: 10px;
-  min-width: 384px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #12130f92;
+    width: 90%;
+    border-radius: 10px;
+    min-width: 384px;
 }
 
 .main-left {
-  order: 1;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 50%;
-  min-width: 346px;
+    order: 1;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    min-width: 346px;
 }
 
 .main-left h2 {
-  font-weight: bold;
-  font-size: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .main-left h3 {
-  font-weight: bold;
-  font-size: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .prix {
-  color: #227c9d;
-  font-weight: bold;
-  font-size: 2rem;
-  text-align: center;
+    color: #227c9d;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .main-right {
-  order: 2;
-  width: 50%;
-  max-width: 540px;
+    order: 2;
+    width: 50%;
+    max-width: 540px;
 }
 
 .main-right img {
-  width: 100%;
-  max-width: 540px;
-  min-width: 345px;
+    width: 100%;
+    max-width: 540px;
+    min-width: 345px;
 }
 
 footer {
-  color: #eae6e5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 60%;
+    color: #eae6e5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.footerLeft {
+    display: flex;
+    flex-direction: column;
+    font-size: 60%;
+    text-align: center;
+
+}
+
+.footerRight {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 60%;
 }
 
 .urlSite {
-  font-size: 180%;
+    font-size: 180%;
 }
 
 .copyright {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 header {
@@ -106,28 +121,28 @@ header {
 }
 
 .navPart {
-  flex-basis: 90%;
+    flex-basis: 90%;
 }
 
 /* Barre de navigation */
 
 nav {
-  width: 100%;
-  padding: 15px;
+    width: 100%;
+    padding: 15px;
 }
 
 nav li {
-  list-style: none;
+    list-style: none;
 }
 
 nav a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar .navItems {
@@ -144,7 +159,7 @@ nav a {
 }
 
 .navbar .navItems img {
-  width: 60%;
+    width: 60%;
 }
 
 .navbar .navItems img:hover {
@@ -152,24 +167,24 @@ nav a {
 }
 
 .navbar .logo a {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .navbar .logo img {
-  width: 50%;
-  min-width: 50px;
+    width: 50%;
+    min-width: 50px;
 }
 
 /* Barre des réseaux sociaux */
 
- .socialNetworks {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   flex-basis: 10%;
-   padding-top: 20px;
+.socialNetworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 10%;
+    padding-top: 20px;
 }
 
 .socialNetworks a {
@@ -196,21 +211,21 @@ nav a {
 /* Menu Burger */
 
 .menuBurger {
-  display: none;
+    display: none;
 }
 
 .menuBurger .hiddenMenu {
-  position: absolute;
-  top: 75px;
-  left: 0;
-  height: 0;
-  width: 40%;
-  background: rgba(1, 33, 48, 0.5);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  backdrop-filter: blur(5px);
+    position: absolute;
+    top: 75px;
+    left: 0;
+    height: 0;
+    width: 40%;
+    background: rgba(1, 33, 48, 0.5);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    backdrop-filter: blur(5px);
 }
 
 .menuBurger .hiddenMenu.open {
@@ -219,15 +234,15 @@ nav a {
 }
 
 .menuBurger .hiddenNavItems {
-  padding: 20px 10%;
+    padding: 20px 10%;
 }
 
 .menuBurger .hiddenSocialNetworks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-right: 1px solid #fff;
-  padding: 20px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #fff;
+    padding: 20px 10%;
 }
 
 /* Header Titre */
@@ -250,49 +265,54 @@ nav a {
 
 @media screen and (max-width: 768px) {
 
-  .navPart {
-    flex-basis: 100%;
-  }
-  /* Barre de navigation */
+    .navPart {
+        flex-basis: 100%;
+    }
 
-  nav {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: start;
-  }
+    /* Barre de navigation */
 
-  .navbar .navItems {
-    display: none;
-  }
+    nav {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: start;
+    }
 
-  /* Menu Burger */
+    .navbar .navItems {
+        display: none;
+    }
 
-  .menuBurger {
-    display: block;
-  }
+    /* Menu Burger */
 
-  .menuBurger i {
-    font-size: 2rem;
-  }
+    .menuBurger {
+        display: block;
+    }
 
-  /* Barre des réseaux sociaux */
+    .menuBurger i {
+        font-size: 2rem;
+    }
+
+    /* Barre des réseaux sociaux */
 
     .socialNetworks {
         display: none;
     }
 
-  .main-cadre {
-    justify-content: center;
-    min-width: 400;
-  }
+    .main-cadre {
+        justify-content: center;
+        min-width: 400;
+    }
 
-  .main-left {
-    order: 2;
-  }
+    .main-left {
+        order: 2;
+    }
 
-  .main-right {
-    order: 1;
-    text-align: center;
-  }
+    .main-right {
+        order: 1;
+        text-align: center;
+    }
+
+    .footerLeft {
+        margin-bottom: 5px;
+    }
 }
