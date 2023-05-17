@@ -3,15 +3,18 @@
     flex-direction: column;
     width: 100%;
     align-items: left;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .main-left {
     width: 49%;
+    padding: 2px;
 }
 
 .main-right {
-    border: 1px solid;
+    /* border: 1px solid; */
+    padding: 2px;
+    min-width: 345px;
 }
 
 iframe {
@@ -22,10 +25,45 @@ iframe {
 form>h2 {
     text-transform: uppercase;
     font-size: 1rem !important;
+    padding: 5px;
+}
+
+.prenomNom {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5px;
+}
+
+.premiereLigne {
+    display: flex;
+    flex-direction: row;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5px;
+}
+
+.infosup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
 }
 
 .bouton {
 
     background-color: #57bf6d;
     border-radius: 10px;
+    padding: 5px 20px;
+    font-weight: bold;
 }
