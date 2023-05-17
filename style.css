@@ -58,6 +58,10 @@ main > p {
   color: white;
 }
 
+.prix > a {
+  color: #227c9d !important;
+}
+
 .main-left h2 {
   font-weight: bold;
   font-size: 2rem;
