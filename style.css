@@ -22,6 +22,7 @@ main {
 main > p {
   margin: 1rem 0;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .main-cadre {
@@ -30,9 +31,9 @@ main > p {
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #12130f92;
-  width: 80%;
-  min-width: 700px;
+  width: 90%;
   border-radius: 10px;
+  min-width: 384px;
 }
 
 .main-left {
@@ -41,6 +42,8 @@ main > p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 50%;
+  min-width: 346px;
 }
 
 .main-left h2 {
@@ -63,11 +66,13 @@ main > p {
 .main-right {
   order: 2;
   width: 50%;
+  max-width: 540px;
 }
 
 .main-right img {
   width: 100%;
   max-width: 540px;
+  min-width: 345px;
 }
 
 footer {
@@ -221,6 +226,10 @@ nav a {
   .socialNetworks {
     display: none;
   }
+  .main-cadre {
+    justify-content: center;
+    min-width: 400;
+  }
 
   .main-left {
     order: 2;
@@ -228,5 +237,6 @@ nav a {
 
   .main-right {
     order: 1;
+    text-align: center;
   }
 }
