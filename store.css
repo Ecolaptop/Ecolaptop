@@ -16,6 +16,7 @@
   width: 90%;
   border-radius: 10px;
   min-width: 384px;
+  max-width: 1200px;
 }
 
 @media screen and (max-width: 768px) {
